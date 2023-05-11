@@ -342,9 +342,7 @@ const unsigned int cCRNHeaderMinSize = 62U;
 #ifdef WIN32
 #include <memory.h>
 #else
-
-    #include <malloc/malloc.h>
-    #include <malloc.h>
+#include <malloc.h>
 
 #endif
 #include <new> // needed for placement new, _msize, _expand
